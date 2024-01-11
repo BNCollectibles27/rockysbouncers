@@ -58,3 +58,20 @@
     animation: lesserJiggle 1s;
     animation-iteration-count: 1;  
   }
+
+  @media only screen and (max-width: 768px) { 
+    .info-card-container{
+        width: 100%;
+        height: 0;
+        padding-bottom: 130%;
+        margin: 20px;
+    }
+    
+    .info-image{
+        aspect-ratio: 3/4 !important;
+        width: 85%;
+    }
+    .info-image-container{
+        height: auto;
+    }
+}
