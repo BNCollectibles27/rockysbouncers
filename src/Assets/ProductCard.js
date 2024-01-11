@@ -27,6 +27,7 @@ function ProductCard(props){
 
     return(
         <div class={props.class !== undefined ? `${props.class} product-card-container` : "product-card-container"}>
+            Hello
             <div class="product-image-container">
                 <img class="product-image" src={props.image} alt={props.alt} />
             </div>
