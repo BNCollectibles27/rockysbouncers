@@ -1,0 +1,21 @@
+.split-container{
+    display: flex;
+}
+
+.split-container > *{
+    padding: 20px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .split-container {
+      display: flexbox;
+      flex-direction: column;
+    }
+    .split-container > *{
+        margin: auto;
+        width: 80% !important;
+    }
+    .invert-split{
+        flex-direction: column-reverse;
+    }
+}

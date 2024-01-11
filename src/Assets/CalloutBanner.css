@@ -1,0 +1,24 @@
+.callout-banner{
+    background-color: rgb(134, 223, 250);
+    height: 40px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(0px 0px 5px #00000063);
+}
+
+.callout-banner p{
+    margin: auto;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+    .item-2, .item-3{
+        display: none;
+        visibility: hidden;
+    }
+}

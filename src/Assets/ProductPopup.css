@@ -1,0 +1,115 @@
+.popup-container{
+    position:absolute;
+    width: 100vw;
+    height: calc(100vh - 120px);
+    z-index: 100;
+    visibility: hidden;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+#popup-container:target{
+    display: block;
+    visibility: visible;
+}
+
+.modal{
+    position: fixed;
+    width: 80%;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 5px rgb(114, 28, 252));  
+}
+
+.pop-text{
+    text-align: left !important;
+}
+
+.pop-text h1{
+    color: rgb(134, 223, 250);
+}
+.pop-price{
+    font-weight: normal;
+    color: rgb(114, 28, 252);
+    font-size: medium;
+    margin: 2px;
+}
+.product-hero-container{
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-hero-container p{
+    margin: 20px auto;
+    width: 90%;
+}
+
+.product-hero{
+    aspect-ratio: 1/1;
+    width: 90%;
+    margin: auto;
+    background-image: url("../Image\ Assets/004_circusbouncer.png");
+    background-size: cover;
+}
+
+.close-container{
+    width: 100%;
+    text-align: right;
+}
+.close-btn{
+    width: auto;
+    padding: 10px 30px;
+}
+
+.call-btn{
+    visibility: hidden;
+}
+.call-txt{
+    margin: 10px 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 768px) { 
+    .modal{
+        overflow: hidden;
+        overflow-y: scroll;
+        position: fixed;
+        width: 80%;
+        height: 85%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+    }
+    .modal::-webkit-scrollbar {
+        display: none;
+    }
+    .close-container{
+        text-align: center;
+    }
+    .call-btn{
+        visibility: visible;
+        display: none;
+    }
+    .call-txt{
+        visibility: hidden;
+        display: none;
+    }
+
+    .popup-split .left-column{
+        padding-bottom: 0px;
+    }
+    .popup-split .right-column{
+        padding-top: 0px;
+    }
+    .product-hero, .product-hero-container p{
+        width: 100%;
+    }
+
+}

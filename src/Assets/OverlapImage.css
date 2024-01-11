@@ -1,0 +1,104 @@
+.image-overlap-container{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+}
+
+.image-overlap-container > * {
+    background-size: contain;
+}
+
+@keyframes dropInBack{
+    0% {
+        opacity: 0;
+        transform: translate(0%, -5%) rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(10%, 5%) rotate(-5deg);
+    }
+}
+
+@keyframes dropInFront{
+    0% {
+        opacity: 0;
+        transform: translate(30%, 25%) rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(45%, 35%) rotate(5deg);
+    }
+}
+
+@keyframes fadeIn{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.fadeIn{
+    animation: fadeIn 3s;
+    animation-iteration-count: 1;
+}
+
+
+.dropInFront{
+    animation: dropInFront 2s;
+    animation-iteration-count: 1;
+}
+
+.dropInBack{
+    animation: dropInBack 2s;
+    animation-iteration-count: 1;
+}
+
+.back-image{
+    position: absolute;
+    background-color: white;
+    width: 65%;
+    height: 65%;
+    transform: translate(10%, 5%) rotate(-5deg);
+    filter: drop-shadow(-2px 2px 5px #000000);
+    z-index: 2;
+}
+
+.front-image{
+    position: absolute;
+    background-color: gray;
+    aspect-ratio: 1/1;
+    width: 65%;
+    height: 65%;
+    transform: translate(45%, 35%) rotate(5deg);
+    filter: drop-shadow(-2px 2px 5px #000000);
+    z-index: 2;
+}
+
+.image-shadow-1{
+    position:absolute;
+    width: 60%;
+    height: 20px;
+    background-color: black;
+    bottom: 20%;
+    transform: translateX(22%);
+    border-radius: 100%;
+    filter: blur(10px);
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.image-shadow-2{
+    position:absolute;
+    width: 60%;
+    height: 20px;
+    background-color: black;
+    bottom: 3%;
+    transform: translateX(48%);
+    border-radius: 100%;
+    filter: blur(10px);
+    opacity: 0.5;
+    z-index: 1;
+}

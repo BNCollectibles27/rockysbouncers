@@ -1,0 +1,29 @@
+.text-container{
+    text-align: center;
+    width:fit-content;
+    font-size: 1.5vw;
+}
+
+.rich-p, .rich-h1{
+    margin: 10px;
+
+}
+
+.hero-banner .text-container{
+    text-align: right;
+    position: absolute;
+    color: white;
+    right: 60px;
+}
+
+#root > .text-container, .inversion > .text-container{
+    width: 100%;
+    margin: 40px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .text-container {
+      font-size: 16px;
+      padding: 0px !important;
+    }
+}

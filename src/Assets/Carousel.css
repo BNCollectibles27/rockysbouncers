@@ -1,0 +1,149 @@
+.rec-pagination{
+    margin-bottom: 10px;
+}
+
+/** for inversion */
+.inversion-carousel > .hbMISa > .iWchow:hover:enabled, .iWchow:focus:enabled {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    box-shadow: 0px 0px 0px 0px !important;
+}
+
+.inversion-carousel > .hbMISa >.bqCWu {
+    box-sizing: border-box;
+    transition: all 0.3s ease 0s;
+    font-size: 1.6em;
+    background-color: rgba(58, 133, 183, 0.1) !important;
+    color: rgb(184, 184, 184) !important;
+    border-radius: 50%;
+    border: none;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    line-height: 50px;
+    align-self: center;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 0px 0px 0px !important;
+}
+
+/**dot*/
+.inversion-carousel > .rec-pagination >.vUlQj:hover, .vUlQj:focus {
+    cursor: pointer;
+    box-shadow: rgb(255, 255, 255) 0px 0px 1px 3px !important;
+}
+.inversion-carousel > .rec-pagination > .vUlQj {
+    box-sizing: border-box;
+    padding: 0px;
+    transition: all 250ms ease 0s;
+    border: none;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.25) !important;
+    font-size: 1.3em;
+    content: "";
+    height: 10px;
+    width: 10px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 1px 3px !important;
+    border-radius: 50%;
+    outline: none;
+}
+
+.inversion-carousel > .rec-pagination > .iNpnDY:hover, .iNpnDY:focus {
+    cursor: pointer;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 1px 3px !important;
+}
+
+/** arrow */
+.inversion-carousel > .hbMISa > .iWchow {
+    box-sizing: border-box;
+    transition: all 0.3s ease 0s;
+    font-size: 1.6em;
+    background-color: rgba(255, 255, 255, 0) !important;
+    color: white !important ;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 50%;
+    border: none;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    line-height: 50px;
+    align-self: center;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 0px 0px 0px !important;
+}
+
+
+/**for not inverted carousel*/
+/** arrow */
+.iWchow:hover:enabled, .iWchow:focus:enabled {
+    color: rgb(255, 255, 255);
+    background-color: rgb(134, 223, 250) !important;
+    box-shadow: rgb(184, 233, 248) 0px 0px 2px 0px !important;
+}
+
+.bqCWu {
+    box-sizing: border-box;
+    transition: all 0.3s ease 0s;
+    font-size: 1.6em;
+    background-color: rgba(58, 133, 183, 0.1) !important;
+    color: rgb(184, 184, 184) !important;
+    box-shadow: rgb(33, 86, 121) 0px 0px 2px 0px !important;
+    border-radius: 50%;
+    border: none;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    line-height: 50px;
+    align-self: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.vUlQj:hover, .vUlQj:focus {
+    cursor: pointer;
+    box-shadow: rgb(42, 188, 233) 0px 0px 1px 3px !important;
+}
+.vUlQj {
+    box-sizing: border-box;
+    padding: 0px;
+    transition: all 250ms ease 0s;
+    border: none;
+    margin: 5px;
+    background-color: rgb(134, 223, 250, 0.5) !important;
+    font-size: 1.3em;
+    content: "";
+    height: 10px;
+    width: 10px;
+    box-shadow: rgb(134, 223, 250) 0px 0px 1px 3px !important;
+    border-radius: 50%;
+    outline: none;
+}
+
+.iNpnDY:hover, .iNpnDY:focus {
+    cursor: pointer;
+    box-shadow: rgb(42, 188, 233, 0.5) 0px 0px 1px 3px !important;
+}
+
+
+.iWchow {
+    box-sizing: border-box;
+    transition: all 0.3s ease 0s;
+    font-size: 1.6em;
+    background-color: rgb(134, 223, 250, 0.5) !important;
+    color: white !important ;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 50%;
+    border: none;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    line-height: 50px;
+    align-self: center;
+    cursor: pointer;
+    outline: none;
+}
