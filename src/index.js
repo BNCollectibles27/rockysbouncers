@@ -100,9 +100,6 @@ root.render(
     </div>
     <div class="nav-spacer"></div>
     <ProductPopup display="">
-      <Split>
-
-      </Split>
     </ProductPopup>
     <HeroBanner 
       class="hero1"
