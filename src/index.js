@@ -38,42 +38,46 @@ const products = {
   "0": {
     image: images[5],
     title: "Rocky's Space Bouncer",
-    description: "",
+    description: "Step into a realm of nostalgia and boundless joy with Rocky's Space Bouncer! Blast off into a world where imagination knows no limits, and laughter echoes through the cosmos. This inflatable wonder is not just a bounce castle; it's a portal to intergalactic adventures and timeless memories. <br><br> <i>This bounce house has an attached slide and splashing pool for Wet & Dry compatibility.</i>",
     primaryCostLabel: "Weekend(Fri. - Sun.)/Holiday Rentals:",
     secondaryCostLabel: "Weekday Rentals:",
     primaryCost: "$275",
     secondaryCost: "$200",
-    dims: ""
+    dims: "31'L x 13'W x 15'H",
+    weight: "295lbs"
   },
   "1": {
     image: images[4],
     title: "Rocky's Circus Bouncer",
-    description: "",
+    description: "Step right up to the greatest show on Earth with Rocky's Circus Bouncer! Step into the magical world of laughter, awe-inspiring performances, and whimsical wonders that only a circus can bring. Our Circus Bouncer is not just an inflatable; it's a an extreme extravaganza that transforms any event into a spectacle of joy and merriment. <br><br><i>This bounce house has an attached slide and splashing pool for Wet & Dry compatibility.</i>",
     primaryCostLabel: "Weekend(Fri. - Sun.)/Holiday Rentals:",
     secondaryCostLabel: "Weekday Rentals:",
     primaryCost: "$275",
     secondaryCost: "$200",
-    dims: ""
+    dims: "31'L x 13'W x 15'H",
+    weight: "295lbs"
   },
   "2": {
     image: images[6],
     title: "Rocky's Sea Slide",
-    description: "",
+    description: "Dive into a world of aquatic excitement with Rocky's Sea Battle Slide – where the thrill of the high seas meets the joy of sliding! Our Sea Battle Slide isn't just an inflatable slide; it's a nautical adventure that promises a splash of fun for all ages. Get ready to embark on a wet and wild journey that will make waves of memories. <br><br><i>This inflatable slide has an splashing pool for Wet & Dry compatibility.</i>",
     primaryCostLabel: "Weekend(Fri. - Sun.)/Holiday Rentals:",
     secondaryCostLabel: "Weekday Rentals:",
     primaryCost: "$350",
     secondaryCost: "$325",
-    dims: ""
+    dims: "36'L x 11'W x 19'H",
+    weight: "375lbs"
   },
   "3": {
     image: images[7],
-    title: "",
-    description: "",
+    title: "Rocky's Movie Night",
+    description: "Lights, camera, action! Elevate your event to blockbuster status with Rocky's Movie Night – an unforgettable cinematic experience under the stars. Our 20ft movie screen inflatable, paired with movie viewing equipment, isn't just a setup; it's a ticket to a magical night of silver screen enchantment, creating memories that flicker in the hearts of your audience. <br><br> <i>Package includes a 20ft inflatable movie screen, projector, audio, and BluRay player. <b>Movie not included.</b></i>",
     primaryCostLabel: "1-Night Rentals:",
     secondaryCostLabel: "Extended Rentals:",
     primaryCost: "$85",
     secondaryCost: "$120",
-    dims: ""
+    dims: "16.7'L x 6.5'W 11.7'H (20.3' Screen)",
+    weight: "26.7lbs"
   },
 }
 
@@ -90,8 +94,9 @@ const eventBreaks = [
 ];
 
 //Notes for self:
-//Create function that swaps modal information using regular JS
-//I'm not sure how to do it using React (propogate up? I don't know how)
+//git add .
+//git commit -m "commit label"
+//git push origin
 
 root.render(
   <React.StrictMode>
@@ -107,7 +112,7 @@ root.render(
     />
     <CalloutBanner id="equipment" text1="Free Delivery*" text2="Locally Owned" text3="Family Operated"/>
     <RichText header="OUR EQUIPMENT" body="Browse through Rocky's selection of hoppin' inflatables!">
-      <p><i>We offer FREE DELIVERY and SETUP for events in Sioux Falls, Tea, Brandon, & Harrisburg!</i></p>
+      <p><i>*We offer FREE DELIVERY and SETUP for events in Sioux Falls, Tea, Brandon, & Harrisburg!</i></p>
     </RichText>
     <Carousel breakPoints={heroBreaks} style={{margin: "20px 0px"}}>
       <ProductCard
