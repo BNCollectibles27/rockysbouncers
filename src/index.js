@@ -60,7 +60,7 @@ const products = {
   "2": {
     image: images[6],
     title: "Rocky's Sea Slide",
-    description: "Dive into a world of aquatic excitement with Rocky's Sea Battle Slide – where the thrill of the high seas meets the joy of sliding! Our Sea Battle Slide isn't just an inflatable slide; it's a nautical adventure that promises a splash of fun for all ages. Get ready to embark on a wet and wild journey that will make waves of memories. <br><br><i>This inflatable slide has an splashing pool for Wet & Dry compatibility.</i>",
+    description: "Dive into a world of aquatic excitement with Rocky's Sea Battle Slide – where the thrill of the high seas meets the joy of sliding! Our Sea Battle Slide isn't just an inflatable slide; it's a nautical adventure that promises a splash of fun for all ages. Get ready to embark on a wet and wild journey that will make waves of memories. <br><br><i>This inflatable slide has an attached splashing pool for Wet & Dry compatibility.</i>",
     primaryCostLabel: "Weekend(Fri. - Sun.)/Holiday Rentals:",
     secondaryCostLabel: "Weekday Rentals:",
     primaryCost: "$350",
@@ -97,6 +97,7 @@ const eventBreaks = [
 //git add .
 //git commit -m "commit label"
 //git push origin
+//npm run deploy
 
 root.render(
   <React.StrictMode>
