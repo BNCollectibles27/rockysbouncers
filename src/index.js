@@ -63,7 +63,7 @@ const products = {
     description: "Dive into a world of aquatic excitement with Rocky's Sea Battle Slide – where the thrill of the high seas meets the joy of sliding! Our Sea Battle Slide isn't just an inflatable slide; it's a nautical adventure that promises a splash of fun for all ages. Get ready to embark on a wet and wild journey that will make waves of memories. <br><br><i>This inflatable slide has an attached splashing pool for Wet & Dry compatibility.</i>",
     primaryCostLabel: "Weekend(Fri. - Sun.)/Holiday Rentals:",
     secondaryCostLabel: "Weekday Rentals:",
-    primaryCost: "$350",
+    primaryCost: "$365",
     secondaryCost: "$325",
     dims: "36'L x 11'W x 19'H",
     weight: "375lbs"
@@ -78,6 +78,17 @@ const products = {
     secondaryCost: "$120",
     dims: "16.7'L x 6.5'W 11.7'H (20.3' Screen)",
     weight: "26.7lbs"
+  },
+  "4": {
+    image: images[18],
+    title: "Rocky's Surf Slide (17ft Dual Lane)",
+    description: "Dive into a world of beachside fun with Rocky's Surf Slide! This thrilling inflatable combines the excitement of surfing with the refreshing splash of water for the ultimate adventure. Perfect for cooling off on hot summer days, this slide brings the beach to your backyard. Get ready to catch some waves and make a splash with Rocky's Surf Slide!<br><br><i>This inflatable slide has an attached splashing pool for Wet & Dry compatibility.</i>",
+    primaryCostLabel: "Weekend(Fri. - Sun.)/Holiday Rentals:",
+    secondaryCostLabel: "Weekday Rentals:",
+    primaryCost: "$365",
+    secondaryCost: "$325",
+    dims: "27'L x 10'W x 17'H",
+    weight: "375lbs"
   },
 }
 
@@ -131,6 +142,11 @@ root.render(
         title="Rocky's Sea Slide (19ft)"
         product={products["2"]}
       />
+      <ProductCard
+        image={images[18]}
+        title="Rocky's Surf Slide (17ft Dual Lane)"
+        product={products["4"]}
+      />      
       <ProductCard
         image={images[7]}
         title="Rocky's Movie Night"
@@ -198,8 +214,12 @@ root.render(
         rightImage={images[14]}
       />
     </Split>   
-    <RichText header="OUR TEAM OF BOUNCE EXPERTS" />
-    <Carousel  breakPoints={eventBreaks}>
+
+    
+    <RichText header="OUR TEAM OF BOUNCE EXPERTS" class="hidden"/>
+
+    <div class="hidden">
+    <Carousel breakPoints={eventBreaks} class="hidden">
       <InfoCard
         image={images[3]}
         title="Brandon"
@@ -221,6 +241,8 @@ root.render(
         title="Mai"
       />      
     </Carousel>
+    </div>
+
     <Inversion>
       <Split
         class="invert-split" 
