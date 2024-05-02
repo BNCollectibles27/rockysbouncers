@@ -14,6 +14,8 @@ import ProductCard from './Assets/ProductCard';
 import InfoCard from './Assets/InfoCard';
 import ProductPopup from './Assets/ProductPopup';
 import './Assets/Carousel.css'
+//import PDF from './Documents/Giveaway Restrictions.pdf';
+import GiveawayButton from './Assets/GiveawayButton';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -81,7 +83,7 @@ const products = {
   },
   "4": {
     image: images[18],
-    title: "Rocky's Surf Slide (17ft Dual Lane)",
+    title: "Rocky's Surf Slide",
     description: "Dive into a world of beachside fun with Rocky's Surf Slide! This thrilling inflatable combines the excitement of surfing with the refreshing splash of water for the ultimate adventure. Perfect for cooling off on hot summer days, this slide brings the beach to your backyard. Get ready to catch some waves and make a splash with Rocky's Surf Slide!<br><br><i>This inflatable slide has an attached splashing pool for Wet & Dry compatibility.</i>",
     primaryCostLabel: "Weekend(Fri. - Sun.)/Holiday Rentals:",
     secondaryCostLabel: "Weekday Rentals:",
@@ -122,7 +124,9 @@ root.render(
       class="hero1"
       slides={heroSlides}
     />
+  
     <CalloutBanner id="equipment" text1="Free Delivery*" text2="Locally Owned" text3="Family Operated"/>
+    <GiveawayButton class="hidden"/>
     <RichText header="OUR EQUIPMENT" body="Browse through Rocky's selection of hoppin' inflatables!">
       <p><i>*We offer FREE DELIVERY and SETUP for events in Sioux Falls, Tea, Brandon, & Harrisburg!</i></p>
     </RichText>
@@ -264,7 +268,11 @@ root.render(
       </Split>
     </Inversion> 
     <div class="footer">
-      <p>Rocky's Bouncers & Inflatables | bncollectibles27@gmail.com | 605-728-8003</p>
+      <h3 id="resources">Additional Resources</h3>
+      <p><b>Rocky's Bouncers & Inflatables</b></p>
+      <p><b>Email: </b>bncollectibles27@gmail.com</p>
+      <p><b>Phone: </b>605-728-8003</p>
+      <p class="hidden"><a id="giveaway-link" href = "" target = "_blank">Giveaway Terms & Conditions</a></p>
       <details>
         <summary>Image Attributions</summary>
         <ul>

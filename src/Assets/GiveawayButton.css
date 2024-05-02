@@ -1,0 +1,24 @@
+.giveaway-container{
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+}
+.g-btn{
+    width: 70%;
+    padding: 14px 5px;
+    margin-top: 30px;
+    background-color: rgb(50, 150, 20);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.1vh;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    filter: drop-shadow(2px 2px 5px #000000);  
+  }
+
+  .g-btn:hover{
+    background-color: rgb(120, 218, 90);
+    transition-duration: 500ms;
+  }

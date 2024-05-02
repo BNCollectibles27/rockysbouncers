@@ -186,3 +186,14 @@ li a{
   }
 }
 
+
+#resources{
+  margin: 5px;
+}
+#giveaway-link{
+  color:white;
+  text-decoration: none;
+}
+#giveaway-link:hover{
+  text-decoration: underline;
+}
