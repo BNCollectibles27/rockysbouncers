@@ -14,7 +14,7 @@ import ProductCard from './Assets/ProductCard';
 import InfoCard from './Assets/InfoCard';
 import ProductPopup from './Assets/ProductPopup';
 import './Assets/Carousel.css'
-//import PDF from './Documents/Giveaway Restrictions.pdf';
+import PDF from './Documents/Giveaway Restrictions.pdf';
 import GiveawayButton from './Assets/GiveawayButton';
 
 
@@ -272,7 +272,7 @@ root.render(
       <p><b>Rocky's Bouncers & Inflatables</b></p>
       <p><b>Email: </b>bncollectibles27@gmail.com</p>
       <p><b>Phone: </b>605-728-8003</p>
-      <p class="hidden"><a id="giveaway-link" href = "" target = "_blank">Giveaway Terms & Conditions</a></p>
+      <p class="hidden"><a id="giveaway-link" href ={PDF} target = "_blank">Giveaway Terms & Conditions</a></p>
       <details>
         <summary>Image Attributions</summary>
         <ul>
