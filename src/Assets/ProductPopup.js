@@ -12,12 +12,12 @@ function ProductPopup(props){
                 <Split class="popup-split" leftWidth="50%" rightWidth="50%" >
                     <div class="product-hero-container">
                         <div class="product-hero"></div>
-                        <p><i><b>Inflated Dimension of <span class="product-dims">36L x 11W x 19H</span> |</b> Weight: <span class="product-weight"> 375lbs.</span></i></p>
+                        <p><i><b>Dimensions: <span class="product-dims">36L x 11W x 19H</span> |</b> <span class="product-weight"> 375lbs.</span></i></p>
                     </div>
                     <div class="pop-text">
                         <h1 class="pop-title">PERFECT FOR ANY EVENT</h1>
-                        <h2 class="pop-price"><b><span class="price-plabel">Weekend(Fri. - Sun.)/Holiday Rentals:</span></b> Starts at <span class="pcost">$275</span></h2>
-                        <h2 class="pop-price"><b><span class="price-slabel">Weekday Rentals:</span></b> Starts at <span class="scost">$225</span></h2>
+                        <h2 class="pop-price"><b><span class="price-plabel">Weekend(Fri. - Sun.)/Holiday Rentals:</span></b> <span class="pcost">$275</span></h2>
+                        <h2 class="pop-price"><b><span class="price-slabel">Weekday Rentals:</span></b> <span class="scost">$225</span></h2>
                         <p class="pop-body">Transform any event into the perfect blend of excitement and wholesome fun! Our diverse range of inflatable wonders, featuring bounce castles, inflatable slides, and inflatable
                             movie screen packages, guarantees an unforgettable experience for all ages. From our vibrant combo castles to our exhilarating inflatable slides, create a lively atmosphere
                             and make lasting experiences with your friends and family. At Rocky's Bouncers & Inflatables, we take pride in helping create these lasting memories. Reserve now and let

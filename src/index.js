@@ -43,10 +43,10 @@ const products = {
     description: "Step into a realm of nostalgia and boundless joy with Rocky's Space Bouncer! Blast off into a world where imagination knows no limits, and laughter echoes through the cosmos. This inflatable wonder is not just a bounce castle; it's a portal to intergalactic adventures and timeless memories. <br><br> <i>This bounce house has an attached slide and splashing pool for Wet & Dry compatibility.</i>",
     primaryCostLabel: "Weekend(Fri. - Sun.)/Holiday Rentals:",
     secondaryCostLabel: "Weekday Rentals:",
-    primaryCost: "$275",
-    secondaryCost: "$200",
+    primaryCost: "Starts at $275",
+    secondaryCost: "Starts at $200",
     dims: "31'L x 13'W x 15'H",
-    weight: "295lbs"
+    weight: "Weight: 295lbs"
   },
   "1": {
     image: images[4],
@@ -54,10 +54,10 @@ const products = {
     description: "Step right up to the greatest show on Earth with Rocky's Circus Bouncer! Step into the magical world of laughter, awe-inspiring performances, and whimsical wonders that only a circus can bring. Our Circus Bouncer is not just an inflatable; it's a an extreme extravaganza that transforms any event into a spectacle of joy and merriment. <br><br><i>This bounce house has an attached slide and splashing pool for Wet & Dry compatibility.</i>",
     primaryCostLabel: "Weekend(Fri. - Sun.)/Holiday Rentals:",
     secondaryCostLabel: "Weekday Rentals:",
-    primaryCost: "$275",
-    secondaryCost: "$200",
+    primaryCost: "Starts at $275",
+    secondaryCost: "Starts at $200",
     dims: "31'L x 13'W x 15'H",
-    weight: "295lbs"
+    weight: "Weight: 295lbs"
   },
   "2": {
     image: images[6],
@@ -65,10 +65,10 @@ const products = {
     description: "Dive into a world of aquatic excitement with Rocky's Sea Battle Slide – where the thrill of the high seas meets the joy of sliding! Our Sea Battle Slide isn't just an inflatable slide; it's a nautical adventure that promises a splash of fun for all ages. Get ready to embark on a wet and wild journey that will make waves of memories. <br><br><i>This inflatable slide has an attached splashing pool for Wet & Dry compatibility.</i>",
     primaryCostLabel: "Weekend(Fri. - Sun.)/Holiday Rentals:",
     secondaryCostLabel: "Weekday Rentals:",
-    primaryCost: "$365",
-    secondaryCost: "$325",
+    primaryCost: "Starts at $365",
+    secondaryCost: "Starts at $325",
     dims: "36'L x 11'W x 19'H",
-    weight: "375lbs"
+    weight: "Weight: 375lbs"
   },
   "3": {
     image: images[7],
@@ -76,10 +76,10 @@ const products = {
     description: "Lights, camera, action! Elevate your event to blockbuster status with Rocky's Movie Night – an unforgettable cinematic experience under the stars. Our 20ft movie screen inflatable, paired with movie viewing equipment, isn't just a setup; it's a ticket to a magical night of silver screen enchantment, creating memories that flicker in the hearts of your audience. <br><br> <i>Package includes a 20ft inflatable movie screen, projector, audio, and BluRay player. <b>Movie not included.</b></i>",
     primaryCostLabel: "1-Night Rentals:",
     secondaryCostLabel: "Extended Rentals:",
-    primaryCost: "$85",
-    secondaryCost: "$120",
+    primaryCost: "Starts at $85",
+    secondaryCost: "Email us for a Quote",
     dims: "16.7'L x 6.5'W 11.7'H (20.3' Screen)",
-    weight: "26.7lbs"
+    weight: "Weight: 26.7lbs"
   },
   "4": {
     image: images[18],
@@ -87,11 +87,33 @@ const products = {
     description: "Dive into a world of beachside fun with Rocky's Surf Slide! This thrilling inflatable combines the excitement of surfing with the refreshing splash of water for the ultimate adventure. Perfect for cooling off on hot summer days, this slide brings the beach to your backyard. Get ready to catch some waves and make a splash with Rocky's Surf Slide!<br><br><i>This inflatable slide has an attached splashing pool for Wet & Dry compatibility.</i>",
     primaryCostLabel: "Weekend(Fri. - Sun.)/Holiday Rentals:",
     secondaryCostLabel: "Weekday Rentals:",
-    primaryCost: "$365",
-    secondaryCost: "$325",
+    primaryCost: "Starts at $365",
+    secondaryCost: "Starts at $325",
     dims: "27'L x 10'W x 17'H",
-    weight: "375lbs"
+    weight: "Weight: 375lbs"
   },
+  "5": {
+    image: images[19],
+    title: "Rocky's Folding Tables",
+    description: "Rocky's Folding Tables are the perfect solution for any event or gathering. Sturdy, durable, and easy to set up, they provide a reliable surface for parties, outdoor events, and everyday use. Whether you're hosting a large celebration or need extra table space for a casual get-together, our folding tables are the perfect solution. <b>Inquire about a package deal!</b>",
+    primaryCostLabel: "Single Day Rentals:",
+    secondaryCostLabel: "Extended Rentals:",
+    primaryCost: "$12/each",
+    secondaryCost: "Email us for a Quote",
+    dims: "95\"L x 30\"W x 29\"H",
+    weight: "Max Weight Recommendation: 350lbs"
+  },  
+  "6": {
+    image: images[20],
+    title: "Rocky's Folding Chairs",
+    description: "Rocky's Folding Chairs are ideal for any event or gathering. Sturdy, durable, and easy to set up, they offer reliable seating for parties, outdoor events, and daily use. For special events or casual summer gatherings, our folding chairs are the perfect seating solution. <b>Inquire about a package deal!</b>",
+    primaryCostLabel: "Single Day Rentals:",
+    secondaryCostLabel: "Extended Rentals:",
+    primaryCost: "$2/each",
+    secondaryCost: "Email us for a Quote",
+    dims: "17.5\"W x 18\"D x 31.5\"H",
+    weight: "Max Weight Recommendation: 450lbs"
+  },      
 }
 
 const heroBreaks = [
@@ -127,7 +149,7 @@ root.render(
   
     <CalloutBanner id="equipment" text1="Free Delivery*" text2="Locally Owned" text3="Family Operated"/>
     <GiveawayButton class="hidden"/>
-    <RichText header="OUR EQUIPMENT" body="Browse through Rocky's selection of hoppin' inflatables!">
+    <RichText header="OUR EQUIPMENT" body="Browse through Rocky's selection of hoppin' inflatables and entertainment equipment!">
       <p><i>*We offer FREE DELIVERY and SETUP for events in Sioux Falls, Tea, Brandon, & Harrisburg!</i></p>
     </RichText>
     <Carousel breakPoints={heroBreaks} style={{margin: "20px 0px"}}>
@@ -155,7 +177,17 @@ root.render(
         image={images[7]}
         title="Rocky's Movie Night"
         product={products["3"]}
-      />      
+      />  
+      <ProductCard
+        image={images[19]}
+        title="Rocky's Folding Tables"
+        product={products["5"]}
+      />  
+      <ProductCard
+        image={images[20]}
+        title="Rocky's Folding Chairs"
+        product={products["6"]}
+      />                             
     </Carousel>
     <Inversion>
       <Split leftWidth="50%" rightWidth="50%" >
