@@ -44,7 +44,7 @@ const products = {
     primaryCostLabel: "Weekend(Fri. - Sun.)/Holiday Rentals:",
     secondaryCostLabel: "Weekday Rentals:",
     primaryCost: "Starts at $275",
-    secondaryCost: "Starts at $200",
+    secondaryCost: "Starts at $225",
     dims: "31'L x 13'W x 15'H",
     weight: "Weight: 295lbs"
   },
@@ -55,7 +55,7 @@ const products = {
     primaryCostLabel: "Weekend(Fri. - Sun.)/Holiday Rentals:",
     secondaryCostLabel: "Weekday Rentals:",
     primaryCost: "Starts at $275",
-    secondaryCost: "Starts at $200",
+    secondaryCost: "Starts at $225",
     dims: "31'L x 13'W x 15'H",
     weight: "Weight: 295lbs"
   },
