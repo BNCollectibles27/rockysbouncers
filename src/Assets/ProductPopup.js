@@ -25,7 +25,7 @@ function ProductPopup(props){
                         </p>
                         <div class="btn-container overlap-btn-container">
                             <a class="mailto" href="mailto: bncollectibles27@gmail.com?subject=RESERVE a Weekend of Unbeatable FUN!"><button class="s-btn">EMAIL TO RESERVE</button></a>
-                            <p class="call-txt">or call 605-728-8003 to make a reservation.</p>
+                            <p class="call-txt">or call 605-951-0203 to make a reservation.</p>
                             <a class="call-btn" href="tel:+16057288003"><button class="s-btn jiggle">CALL TO RESERVE</button></a>
                         </div>                         
                     </div>

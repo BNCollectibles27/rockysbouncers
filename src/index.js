@@ -113,7 +113,18 @@ const products = {
     secondaryCost: "Email us for a Quote",
     dims: "17.5\"W x 18\"D x 31.5\"H",
     weight: "Max Weight Recommendation: 450lbs"
-  },      
+  },  
+  "7": {
+    image: images[21],
+    title: "Rocky's Shark Attack Slide",
+    description: "Venture into the deep blue and escape the jaws of the mighty Shark Attack Slide! A giant shark, an exhilarating climb, and a thrilling high-speed drop create an unforgettable ocean adventure for brave riders. Climb to the top, race down the slick slide, and splash through the shark’s open mouth for the ultimate summer thrill. Perfect for turning any party into an action-packed underwater escape!<br><br><i>This inflatable slide has an attached splashing pool for Wet & Dry compatibility.</i>",
+    primaryCostLabel: "Weekend(Fri. - Sun.)/Holiday Rentals:",
+    secondaryCostLabel: "Weekday Rentals:",
+    primaryCost: "Inquire for Event Pricing",
+    secondaryCost: "Inquire for Event Pricing",
+    dims: "65.6'L x 15.0'W x 35.0'H",
+    weight: "Weight: 700lbs"
+  },         
 }
 
 const heroBreaks = [
@@ -172,7 +183,12 @@ root.render(
         image={images[18]}
         title="Rocky's Surf Slide (17ft Dual Lane)"
         product={products["4"]}
-      />      
+      />  
+      <ProductCard
+        image={images[21]}
+        title="Rocky's Shark Attack Slide (35ft Wide Lane)"
+        product={products["7"]}
+      />               
       <ProductCard
         image={images[7]}
         title="Rocky's Movie Night"
@@ -303,7 +319,7 @@ root.render(
       <h3 id="resources">Additional Resources</h3>
       <p><b>Rocky's Bouncers & Inflatables</b></p>
       <p><b>Email: </b>bncollectibles27@gmail.com</p>
-      <p><b>Phone: </b>605-728-8003</p>
+      <p><b>Phone: </b>605-951-0203</p>
       <p><a id="giveaway-link" href ={PDF} target = "_blank">Giveaway Terms & Conditions</a></p>
       <details>
         <summary>Image Attributions</summary>
