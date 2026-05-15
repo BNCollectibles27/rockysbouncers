@@ -161,7 +161,7 @@ root.render(
     <CalloutBanner id="equipment" text1="Free Delivery*" text2="Locally Owned" text3="Family Operated"/>
     <GiveawayButton class="hidden"/>
     <RichText header="OUR EQUIPMENT" body="Browse through Rocky's selection of hoppin' inflatables and entertainment equipment!">
-      <p><i>*We offer FREE DELIVERY and SETUP for events in Sioux Falls, Tea, Brandon, & Harrisburg!</i></p>
+      <p><i>*We offer FREE DELIVERY and SETUP for inflatable equipment in Sioux Falls, Tea, Brandon, & Harrisburg!</i></p>
     </RichText>
     <Carousel breakPoints={heroBreaks} style={{margin: "20px 0px"}}>
       <ProductCard
